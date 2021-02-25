@@ -1,0 +1,23 @@
+Name:Zhuo Chen
+Student ID: 200352092
+Class Number:CS215(Online Summer)
+URL:http://www2.cs.uregina.ca/~chen222z/CS215Assignment6/Main%20Page.php
+Main Page.php:The main interface of my poll websit shows 5 recent created polls
+Sign-up php.html:to allow user create their account and avatar image
+Poll Management Pag.php: After login, the user can see their created polls and order by date
+Poll Creation Page.php: allow login-user create a new poll
+Poll Vote Pag.php: allow public vote for paticular poll
+Poll Results Pag.php: allow public see the result for paticular poll
+style.css: all class and id style store and edit in this file
+regiester.js: event registration for login form, sign-up form and creation form.
+validate:eventhandlers and fucntions to validate those forms.
+autoresult.js: eventhandlers and functions for add lisener of auto update result event during 
+a certain period 60s and highlighting the changed part for 5s.
+autoresult.php: fetch data from database to support the function in autoresult.js.
+ autoshows.js:eventhandlers and functions for add lisener of auto show graphic result event
+after user click the vote button.
+autoshows.php:fetch data from database to support the function in autoshows.js.
+update.js:eventhandlers and functions for add lisener of auto update most
+recent created poll event during 
+a certain period 90s and delete the last one, maintaining 5 polls in total.
+auto.php:fetch data from database to support the function in update.js.
